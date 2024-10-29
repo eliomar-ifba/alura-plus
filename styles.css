@@ -253,7 +253,7 @@ body {
   }
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 700px) {
   .principal__imagem {
     width: 40vw;
   }
