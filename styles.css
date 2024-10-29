@@ -252,3 +252,13 @@ body {
       url(assets/Background.png);
   }
 }
+
+@media (orientation: landscape) {
+  .principal__imagem {
+    width: 40vw;
+  }
+
+  .secundaria__imagem {
+    width: 40vw;
+  }
+}
